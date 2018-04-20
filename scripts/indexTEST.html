@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="sum"></p>
+
+<script>
+function myFunction() {
+    var question = prompt("Do you want to play?");
+    var words = [];
+    
+    
+    
+    if (question === "yes") { 
+        
+        
+        do {var another = prompt('Enter a Word');
+            words.push(another);
+            console.log(words);
+            var answer = prompt('Do you want to play again?'); 
+        }
+        while (
+            
+        answer === "yes");
+        var complete = words.join(" ");
+        
+        console.log(another);
+        console.log(complete);
+        
+        
+        
+        
+        
+//        else (question === "no")
+    } }
+        
+    </script>
+    </body>
+</html>
